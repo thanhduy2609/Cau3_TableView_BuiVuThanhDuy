@@ -19,13 +19,13 @@ class Model {
     
     class func priority1() -> Model {
         return Model(priorityName: "priority1", task: [
-            "Task1", "Task2", "Task3", "Task4", "Task5"
+            "Task1", "Task2"
             ])
     }
     
     class func priority2() -> Model {
         return Model(priorityName: "priority2", task: [
-            "Task11", "Task12", "Task13"            ])
+             "Task3", "Task4", "Task5"           ])
     }
     
     class func getListPriority() -> [Model]{
